@@ -1,0 +1,15 @@
+jason@jason-215b:~/Desktop/Small-Client-SSE$ ./qos_debug 
+Test begins. 
+Access Time per update: 0.236 us
+Update begins. 
+Len: 1000, Update Time per update: 8805.73 us
+size: 1000, Search Time per id: 0.007642 ms
+Com size: 1.77637e+07 bytes
+jason@jason-215b:~/Desktop/Small-Client-SSE$ ./qos_debug 
+Update begins. 
+Segmentation fault (core dumped)
+jason@jason-215b:~/Desktop/Small-Client-SSE$ ./qos_debug 
+Update begins. 
+Len: 10000, Update Time per update: 14408.7 us
+size: 10000, Search Time per id: 0.0053502 ms
+Com size: 2.76119e+08 bytes

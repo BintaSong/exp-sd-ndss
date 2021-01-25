@@ -1,0 +1,45 @@
+jason@jason-215b:~/Desktop/Small-Client-SSE$ ./static_deamortized_debug 
+5
+7
+Len: 10, Update Time per update: 7.9 us
+Len: 10, Search Time per id: 1 us
+jason@jason-215b:~/Desktop/Small-Client-SSE$ ./static_deamortized_debug 
+5
+7
+Len: 100, Update Time per update: 10.68 us
+Len: 100, Search Time per id: 0.12 us
+jason@jason-215b:~/Desktop/Small-Client-SSE$ ./static_deamortized_debug 
+5
+7
+Len: 1000, Update Time per update: 18.527 us
+Len: 1000, Search Time per id: 0.02 us
+jason@jason-215b:~/Desktop/Small-Client-SSE$ ./static_deamortized_debug 
+5
+7
+Len: 10000, Update Time per update: 4805.07 us
+Len: 10000, Search Time per id: 0.0036 us
+jason@jason-215b:~/Desktop/Small-Client-SSE$ ./static_deamortized_debug 
+5
+7
+Len: 10000, Update Time per update: 4876.54 us
+Len: 10000, Search Time per id: 0.0146 us
+jason@jason-215b:~/Desktop/Small-Client-SSE$ ./static_deamortized_debug 
+5
+7
+Len: 100000, Update Time per update: 23757.4 us
+Len: 100000, Search Time per id: 0.00244 us
+jason@jason-215b:~/Desktop/Small-Client-SSE$ ./static_deamortized_debug 
+5
+7
+jason@jason-215b:~/Desktop/Small-Client-SSE$ ./static_deamortized_debug 
+5
+7
+Len: 100000, Update Time per update: 23098.3 us
+Len: 100000, Search Time per id: 0.00046 us
+
+
+Len: 10000, Update Time per update: 10646.9 us
+Len: 10000, Search Time per id: 0.0019209 ms
+Len: 1000, Search Time per id: 0.002345 ms
+Len: 100, Search Time per id: 0.00408 ms
+Len: 10, Search Time per id: 0.0102 ms
